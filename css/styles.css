@@ -1,0 +1,89 @@
+body {
+    background-image: url("../images.bg.jpg");
+    background-repeat: repeat-x;
+}
+
+/* Header */
+#header {
+	font-size: 3em;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: 'Righteous', cursive;
+    color: #f7517d;
+}
+/* Header */
+
+/* Form */
+form {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+label {
+	font-size: 1.3em;
+	color: #ffffff;
+}
+
+#number {
+	height: 50px;
+	border-radius: 3px;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+#myBtn {
+	height: 50px;
+	border-radius: 3px;
+	text-align: center;
+	font-size: 1.5em;
+	width: 100%;
+	border: 2px solid #f7517d;
+	padding-top: 10px
+	padding-bottom: 10px;
+	color: #f7517d;
+	background-color: #ffffff;
+}
+
+#myBtn:hover {
+	background-color: #f7517d;
+	color: #ffffff;
+}
+/* Form */
+
+/* Display */
+#display {
+	width: 100%;
+	background-color: #ffd596;
+	font-size: 1.5em;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#results {
+	padding-bottom: 50px;
+}
+
+#displayResults {
+	margin-top: 15px;
+	background-color: #ffffff;
+	font-size: 1em;
+	padding-bottom: 15px;
+}
+
+#theResults {
+	padding-top: 25px;
+	padding-bottom: 50px;
+}
+/* Display */
+
+/* footer */
+footer {
+	position: absolute;
+	bottom: 0;
+}
+
+#footer-header {
+	font-family: 'Righteous', cursive;
+    color: #f7517d;
+}
+/* footer */
