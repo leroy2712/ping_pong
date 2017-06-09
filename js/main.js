@@ -1,5 +1,6 @@
 $(document).ready(function(){
 	$("#myBtn").click(function(){
+		$("#theResults").text("");
         var userInput = $("#number").val();
 
         var newValue = parseInt(userInput);
@@ -25,6 +26,9 @@ $(document).ready(function(){
         	myArray[l] = "ping pong";
         }
 
-        alert(myArray);
+        for (i = 0; i < myArray.length; i++){
+        	//$("#theResults").append("<li>"+myArray[m]+"</li>");
+        	$("#theResults").append("<li>"+myArray[i]+"</li>");
+        }
 	});
 });
