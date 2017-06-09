@@ -1,7 +1,4 @@
-body {
-    background-image: url("../images.bg.jpg");
-    background-repeat: repeat-x;
-}
+
 
 /* Header */
 #header {
@@ -73,17 +70,24 @@ label {
 #theResults {
 	padding-top: 25px;
 	padding-bottom: 50px;
+	color: #ba0056;
+	list-style-type: none;
 }
 /* Display */
 
 /* footer */
-footer {
-	position: absolute;
-	bottom: 0;
+#footer {
+	padding-bottom: 50px;
+	border-top: 2px solid #f7517d;
 }
 
 #footer-header {
 	font-family: 'Righteous', cursive;
     color: #f7517d;
+}
+
+.description {
+	font-size: 1.2em;
+	color: #ffffff;
 }
 /* footer */

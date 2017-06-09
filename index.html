@@ -10,7 +10,7 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
-    <body style="background-image: url(images/stardust.png);">
+    <body style="background: url('images/stardust.png') no-repeat center center fixed; -webkit-background-size: cover; background-size: cover;">
     <nav class="navbar navbar-inverse">
         <p class="text-center" id="header">Ping Pong</p>
     </nav>
@@ -40,13 +40,7 @@
     			<button class="btn" id="display" data-toggle="collapse" data-target="#displayResults">Display results</button>
     			<div id="displayResults" class="collapse">
     				<ul id="theResults">
-    				<li>Crtoons</li>
-    				<li>Crtoons</li>
-    				<li>Crtoons</li>
-    				<li>Crtoons</li>
-    				<li>Crtoons</li>
-    				<li>Crtoons</li>
-    			</ul>
+    			    </ul>
     			</div>
     		</div>
     		<div class="col-sm-2"></div>
@@ -54,9 +48,24 @@
     </div>
 
 
-    <footer>
-    	<h2 class="text-center" id="footer-header">About Ping Pong</h2>
-    </footer>
+    <div class="container" id="footer">
+    	<div class="row">
+    		<div class="col-sm-2"></div>
+    		<div class="col-sm-8">
+    			<h1 class="text-center" id="footer-header">About Ping Pong</h1>
+    			<br>
+    			<br>
+    			<p class="description">Ping Pong is a web application that takes a number from a user and returns a range of numbers from 1 to the chosen number with the following exception:</p>
+    			<ul class="description">
+    				<li>Numbers divisible by 3 are replaced with "ping".</li>
+    				<li>Numbers divisible by 5 are replaced with "pong".</li>
+    				<li>Numbers divisible by 15 are replaced with "pingpong".</li>
+    			</ul>
+    			<p class="description">A user should be able to enter a new number and see new results over and over again.</p>
+    		</div>
+    		<div class="col-sm-2"></div>
+    	</div>
+    </div>
 
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
